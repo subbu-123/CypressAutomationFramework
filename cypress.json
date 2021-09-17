@@ -1,0 +1,16 @@
+{
+  "defaultCommandTimeout": 8000,
+  "env": {
+    "URL": "https://rahulshettyacademy.com/angularpractice/"
+  },
+
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "reportFilename": "report",
+    "charts": true
+    
+  },
+
+  "projectId": "5j4vjp"
+}
