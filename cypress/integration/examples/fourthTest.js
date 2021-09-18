@@ -29,7 +29,7 @@ describe('Fourth Test Suite', () => {
         cy.contains('Reload').click({ force: true })
         cy.get('.mouse-hover-content').scrollIntoView().invoke('show') // point to remember is jquery 'show' method is to be used on immediate parent under which hidden elements are present
         cy.contains('Top').click()
-        cy.url().should('include','tops')
+        cy.url().should('include','tops') // Make 'tops' to 'top' for the test case to pass. It is done here intentionally
 
 /*         cy.get('#openwindow').invoke('prop','url').then((val)=> {
 

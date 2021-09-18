@@ -3,14 +3,15 @@
   "env": {
     "URL": "https://rahulshettyacademy.com/angularpractice/"
   },
-
   "reporter": "cypress-mochawesome-reporter",
   "reporterOptions": {
     "reportDir": "cypress/reports",
     "reportFilename": "report",
     "charts": true
-    
   },
-
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  },
   "projectId": "5j4vjp"
 }
