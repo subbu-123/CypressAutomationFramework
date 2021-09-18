@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "normal_run": "npx cypress run",
-    "headedMode_run": "npm run normal_run -- --headed --b chrome",
+    "headedMode_run": "npm run normal_run -- --headed --browser chrome",
     "Dashboard_run": "npm run normal_run -- --record --key d57a69d5-75f5-468d-aee5-5cf8c0475fb3"
   },
   "keywords": [],
